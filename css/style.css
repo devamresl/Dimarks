@@ -1,0 +1,953 @@
+body
+{
+    height: 7000px;
+}
+
+/* Satrt Navbar */
+
+.navbar
+{
+    margin-top: 40px;
+}
+
+.navbar .navbar-brand
+{
+    color: #221f5b;
+    font-size: 21px;
+    font-weight: 500;
+    margin-right: 79.9px;
+    line-height: 21px;
+}
+
+.navbar .navbar-nav li
+{
+    margin-right: 35px;
+}
+
+.navbar .navbar-nav li > a
+{
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.navbar .navbar-nav li .active
+{
+    color: #221f5b;
+}
+
+.navbar .conta a
+{
+    color: #fff;
+    text-decoration: none;
+    background-color: #5955b3;
+    padding: 16.4px 26.3px;
+    line-height: 20px;
+    border-radius: 12px;
+}
+
+/* End Navbar */
+
+/* Start Help */
+
+.help
+{
+    margin-top: 106px;
+    margin-bottom: 190px;
+}
+
+.help .info h1
+{
+    font-size: 60px;
+    color: #3c2f60;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 25px;
+}
+
+.help .info h1 > span
+{
+    color: #5955b3;
+}
+
+.help .info p
+{
+    font-size: 16px;
+    color: #828282;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.help .info a
+{
+    color: #fff;
+    background-color: #5955b3;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 14px;
+}
+
+.help .photo img
+{
+    width: 640px;
+}
+
+/* End Help */
+
+/* Start About Us */
+
+.about-us
+{
+    margin-bottom: 125px;
+}
+
+.about-us .info
+{
+    padding-left: 40px;
+}
+
+.about-us .info span
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5955b3;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-top: 60px;
+}
+
+.about-us .info h3
+{
+    color: #221f5b;
+    font-size: 40px;
+    margin-bottom: 28px;
+    line-height: 50px;
+}
+
+.about-us .info p
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.about-us .info a
+{
+    color: #fff;
+    background-color: #5955b3;
+    padding: 17px 30px;
+    text-decoration: none;
+    border-radius: 16px;
+    line-height: 26px;
+}
+
+/* End About Us */
+
+/* Satrt Projects Done */
+
+.projects-done
+{
+    margin-bottom: 200px;
+}
+
+.projects-done div
+{
+    margin-bottom: 30px;
+}
+
+.projects-done div p
+{
+    color: #221f5b;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -1.44px;
+}
+
+.projects-done div span
+{
+    color: #221f5b;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    line-height: 50px;
+}
+
+/* End Projects Done */
+
+/* Satrt Why Us */
+
+.why-us
+{
+    margin-bottom: 195px;
+}
+
+.why-us .best span
+{
+    color: #5955b3;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.why-us .best h3
+{
+    color: #221f5b;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    line-height: 50px;
+    margin-bottom: 65px;
+}
+
+.why-us .best img
+{
+    width: 550px;
+    height: 450px;
+}
+
+.why-us .visitors
+{
+    margin-top: 200px;
+    padding: 20px 70px;
+}
+
+.why-us .visitors h4
+{
+    color: #221f5b;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.why-us .visitors p
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+
+.why-us .visitors a
+{
+    color: #fff;
+    background-color: #5955b3;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 17px 35px;
+    border-radius: 16px;
+}
+
+/* End Why Us */
+
+/* Satrt Analytics */
+
+.analytics .top h3
+{
+    color: #221f5b;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -.96px;
+    margin-bottom: 26px;
+}
+
+.analytics .top p
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.analytics .top a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #5955b3;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 17px 32px;
+    border-radius: 16px;
+}
+
+.analytics .paying img:nth-of-type(1)
+{
+    position: relative !important;
+    margin-right: -70px;
+    margin-top: -100px;
+}
+
+.analytics .paying .visits
+{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-top: -390px;
+    margin-left: 460px;
+    padding: 15px 40px 15px 15px;
+}
+
+.analytics .paying .visits .learn
+{
+    display: block;
+    color: #fff;
+    background-color: #fd8589;
+    padding: 11.5px 9px;
+    border-radius: 12px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.analytics .paying .visits span:nth-of-type(1)
+{
+    color: #3c2f60;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -.48px;
+}
+
+.analytics .paying .visits p
+{
+    color: #221f5b;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: -.72px;
+    font-weight: 500;
+}
+
+.analytics .paying .visits p > i
+{
+    color: #fd8589;
+    margin-left: 11.5px;
+}
+
+.analytics .paying .visits span:nth-of-type(2)
+{
+    color: #bdbdbd;
+    font-size: 16px;
+}
+
+/* End Analytics */
+
+
+/* Start Our Clients */
+
+.our-clients
+{
+    margin-bottom: 152px;
+}
+
+.our-clients p
+{
+    color: #5955b3;
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.our-clients h2
+{
+    color: #221f5b;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    line-height: 50px;
+    margin-bottom: 95px;
+}
+
+.our-clients img
+{
+    margin-bottom: 40px;
+}
+
+/* End Our Clients */
+
+/* Satrt Our Services */
+
+.our-services
+{
+    background-color: #f0f6ff;
+}
+
+.our-services .helps
+{
+    margin-bottom: 190px;
+}
+
+.our-services .helps span
+{
+    color: #5955b3;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    margin-top: 85px;
+    margin-bottom: 25px;
+}
+
+.our-services .helps h2
+{
+    color: #221f5b;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1.2px;
+    margin-bottom: 37px;
+}
+
+.our-services .helps p
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Start Social */
+
+.our-services .social 
+{
+    padding: 20px;
+}
+
+/* Start Engine */
+
+.our-services .social .engine
+{
+    color: #fff;
+    background-color: #5955b3;
+    padding: 50px 52px;
+    margin-bottom: 66px;
+}
+
+.our-services .social .engine img:nth-of-type(2)
+{
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -40px;
+}
+
+.our-services .social .engine h5
+{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 47px;
+    margin-bottom: 27px;
+    letter-spacing: -.72px;
+}
+
+.our-services .social .engine p
+{
+    margin-left: 120px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.our-services .social .engine a
+{
+    margin-left: 120px;
+    text-decoration: none;
+    line-height: 26px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.our-services .social .engine a > i
+{
+    margin-left: 8px;
+    line-height: 26px;
+}
+
+/* End Engine */
+
+/* Start Search */
+
+.our-services .social .search
+{
+    background-color: #fff;
+    padding: 50px 52px;
+}
+
+.our-services .social .search h5
+{
+    color: #221f5b;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 43px;
+    margin-bottom: 27px;
+    letter-spacing: -.72px;
+}
+
+.our-services .social .search p
+{
+    color: #828282;
+    margin-left: 117px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.our-services .social .search a
+{
+    margin-left: 120px;
+    text-decoration: none;
+    line-height: 26px;
+    color: #5955b3;
+    font-size: 16px;
+}
+
+.our-services .social .search a > i
+{
+    margin-left: 8px;
+    line-height: 26px;
+}
+
+/* End Search */
+
+/* End Social */
+
+/* Start Media */
+
+.our-services .media 
+{
+    padding: 20px;
+}
+
+/* Start Seo */
+
+.our-services .media .seo
+{
+    background-color: #fff;
+    padding: 58px 52px;
+    margin-bottom: 66px;
+}
+
+.our-services .media .seo h5
+{
+    color: #221f5b;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 43px;
+    margin-bottom: 27px;
+    letter-spacing: -.72px;
+}
+
+.our-services .media .seo p
+{
+    color: #828282;
+    margin-left: 117px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.our-services .media .seo a
+{
+    margin-left: 120px;
+    text-decoration: none;
+    line-height: 26px;
+    color: #5955b3;
+    font-size: 16px;
+}
+
+.our-services .media .seo a > i
+{
+    margin-left: 8px;
+    line-height: 26px;
+}
+
+/* End Seo */
+
+/* Start Content */
+
+.our-services .media .content
+{
+    background-color: #fff;
+    padding: 52px 52px;
+    margin-bottom: 66px;
+}
+
+.our-services .media .content h5
+{
+    color: #221f5b;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 43px;
+    margin-bottom: 27px;
+    margin-top: -15px;
+    letter-spacing: -.72px;
+}
+
+.our-services .media .content p
+{
+    color: #828282;
+    margin-left: 117px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.our-services .media .content a
+{
+    margin-left: 120px;
+    text-decoration: none;
+    line-height: 26px;
+    color: #5955b3;
+    font-size: 16px;
+}
+
+.our-services .media .content a > i
+{
+    margin-left: 8px;
+    line-height: 26px;
+}
+
+/* End Content */
+
+/* End Media */
+
+.our-services .more
+{
+    text-align: center;
+    margin-top: 26px;
+    padding-bottom: 134px;
+}
+
+.our-services .more a
+{
+    color: #fff;
+    background-color: #5955b3;
+    padding: 18px 47px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* End Our Services */
+
+/* Start Pricing */
+
+.pricing
+{
+    margin-top: 102px;
+    margin-bottom: 225px;
+}
+
+/* Start Choose */
+
+.pricing .choose span
+{
+    color: #5955b3;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.pricing .choose h2
+{
+    color: #221f5b;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1.2px;
+    margin-bottom: 29.2px;
+}
+
+.pricing .choose p
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 78px;
+}
+
+/* End Choose */
+
+/* Start Analytics */
+
+.pricing .analytics
+{
+    padding: 50px;
+}
+
+.pricing .analytics div span
+{
+    color: #5955b3;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: -.66px;
+    display: inline-block;
+    margin-bottom: 57px;
+}
+
+.pricing .analytics div p
+{
+    color: #221f5b;
+    font-size: 80px;
+    line-height: 50px;
+    letter-spacing: -2.4px;
+    margin-bottom: 35px;
+}
+
+.pricing .analytics ul li
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.pricing .analytics ul li > i
+{
+    color: #5955b3;
+    margin-right: 24px;
+}
+
+.pricing .analytics a
+{
+    color: #fff;
+    background-color: #fd8589;
+    padding: 30px 100px;
+    border-radius: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 75px;
+}
+
+/* End Analytics */
+
+/* Start Keyword */
+
+.pricing .keyword
+{
+    padding: 50px;
+    background-color: #5955b3;
+    border-radius: 16px;
+}
+
+.pricing .keyword div span
+{
+    color: #fff;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: -.66px;
+    display: inline-block;
+    margin-bottom: 57px;
+}
+
+.pricing .keyword div p
+{
+    color: #fff;
+    font-size: 80px;
+    line-height: 50px;
+    letter-spacing: -2.4px;
+    margin-bottom: 35px;
+}
+
+.pricing .keyword ul li
+{
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.pricing .keyword ul li > i
+{
+    color: #fff;
+    margin-right: 24px;
+}
+
+.pricing .keyword a
+{
+    color: #221f5b;
+    background-color: #fff;
+    padding: 30px 100px;
+    border-radius: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 75px;
+}
+
+/* End Keyword */
+
+/* Start Support */
+
+.pricing .support
+{
+    padding: 50px;
+}
+
+.pricing .support div span
+{
+    color: #5955b3;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: -.66px;
+    display: inline-block;
+    margin-bottom: 57px;
+}
+
+.pricing .support div p
+{
+    color: #221f5b;
+    font-size: 80px;
+    line-height: 50px;
+    letter-spacing: -2.4px;
+    margin-bottom: 35px;
+}
+
+.pricing .support ul li
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.pricing .support ul li > i
+{
+    color: #5955b3;
+    margin-right: 24px;
+}
+
+.pricing .support a
+{
+    color: #fff;
+    background-color: #fd8589;
+    padding: 30px 100px;
+    border-radius: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 75px;
+}
+
+/* End Support */
+
+/* End Pricing */
+
+/* Satrt Drop */
+
+.drop
+{
+    background-color: #f0f6ff;
+    padding: 58px 56px;
+    margin-bottom: 102px;
+}
+
+.drop span
+{
+    color: #5955b3;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 24px;
+    margin-top: 37px;
+}
+
+.drop h2
+{
+    color: #221f5b;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1.2px;
+    margin-bottom: 28px;
+}
+
+.drop p
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 64.5px;
+}
+
+.drop form input
+{
+    width: 290px;
+    height: 80px;
+    border: none;
+    border-radius: 16px;
+    float: left;
+}
+
+.drop a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #5854b2;
+    padding: 28px 30px;
+    border-radius: 16px;
+    float: right;
+}
+
+/* End Drop */
+
+/* Start Footer */
+
+.footer .partner h6
+{
+    color: #221f5b;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: -.54px;
+}
+
+.footer .partner ul
+{
+    margin-top: 15px;
+}
+
+.footer .partner ul li > a
+{
+    color: #828282;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: -.48px;
+    text-decoration: none;
+}
+
+.footer .aloe h6
+{
+    color: #221f5b;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: -.54px;
+}
+
+.footer .aloe ul li
+{
+    color: #828282;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 26px;
+    letter-spacing: -.48px;
+    text-decoration: none;
+}
+
+.footer .all
+{
+    color: #5955b3;
+    font-size: 22px;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.footer p
+{
+    float: right;
+    margin-top: 130px;
+    color: #828282;
+    letter-spacing: -.48px;
+    line-height: 26px;
+}
+
+/* End Footer */
