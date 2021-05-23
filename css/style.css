@@ -92,6 +92,24 @@ body
     width: 640px;
 }
 
+@media (max-width: 576px)
+{
+    .help .info h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .help .info p
+    {
+        font-size: 14px;
+    }
+
+    .help .photo img
+    {
+        width: 100%;
+    }
+}
+
 /* End Help */
 
 /* Start About Us */
@@ -141,6 +159,28 @@ body
     text-decoration: none;
     border-radius: 16px;
     line-height: 26px;
+}
+
+@media (max-width: 576px)
+{
+    .about-us .phot img
+    {
+        width: 100%;
+    }
+
+    .about-us .info h3
+    {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 23px;
+    }
+
+    .about-us .info p
+    {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
 }
 
 /* End About Us */
@@ -239,9 +279,34 @@ body
     border-radius: 16px;
 }
 
+@media (max-width: 576px)
+{
+    .why-us .best h3
+    {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .why-us .best img
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    .why-us .visitors
+    {
+        margin-top: 30px;
+    }
+}
+
 /* End Why Us */
 
 /* Satrt Analytics */
+
+.analytics .top
+{
+    margin-bottom: 40px;
+}
 
 .analytics .top h3
 {
@@ -269,6 +334,11 @@ body
     line-height: 20px;
     padding: 17px 32px;
     border-radius: 16px;
+}
+
+.analytics .paying
+{
+    margin-bottom: 40px;
 }
 
 .analytics .paying img:nth-of-type(1)
@@ -328,6 +398,50 @@ body
     font-size: 16px;
 }
 
+@media (max-width: 576px)
+{
+    .analytics .paying img:nth-of-type(1)
+    {
+        margin-top: 30px;
+        margin-right: -50px;
+    }
+
+    .analytics .paying img:nth-of-type(2)
+    {
+        width: 100%;
+    }
+
+    .analytics .paying .visits
+    {
+        margin-left: 360px;
+        margin-top: -70px;
+        padding: 10px;
+    }
+
+    .analytics .paying .visits span:nth-of-type(1)
+    {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .analytics .paying .visits .learn
+    {
+        margin-bottom: 0;
+    }
+
+    .analytics .paying .visits p
+    {
+        font-size: 18px;
+        margin-bottom: 0;
+        line-height: 30px;
+    }
+
+    .analytics .paying .visits span:nth-of-type(2)
+    {
+        font-size: 13px;
+    }
+}
+
 /* End Analytics */
 
 
@@ -358,6 +472,27 @@ body
 .our-clients img
 {
     margin-bottom: 40px;
+}
+
+@media (max-width: 576px)
+{
+    .our-clients
+    {
+        margin-bottom: 50px;
+    }
+    
+    .our-clients p
+    {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .our-clients h2
+    {
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 45px;
+    }
 }
 
 /* End Our Clients */
@@ -398,6 +533,33 @@ body
     color: #828282;
     font-size: 16px;
     line-height: 26px;
+}
+
+@media (max-width: 576px)
+{
+    .our-services .helps
+    {
+        margin-bottom: 40px;
+    }
+
+    .our-services .helps span
+    {
+        font-size: 14px;
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+
+    .our-services .helps h2
+    {
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .our-services .helps p
+    {
+        font-size: 12px;
+    }
 }
 
 /* Start Social */
@@ -632,6 +794,15 @@ body
     margin-bottom: 225px;
 }
 
+@media (max-width: 576px)
+{
+    .pricing
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
 /* Start Choose */
 
 .pricing .choose span
@@ -659,6 +830,30 @@ body
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 78px;
+}
+
+@media (max-width: 576px)
+{
+    .pricing .choose span
+    {
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+
+    .pricing .choose h2
+    {
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .pricing .choose p
+    {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
 }
 
 /* End Choose */
@@ -714,6 +909,39 @@ body
     text-decoration: none;
     display: inline-block;
     margin-top: 75px;
+}
+
+@media (max-width: 576px)
+{
+    .pricing .analytics div span
+    {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pricing .analytics div p
+    {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .pricing .analytics ul li
+    {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+    .pricing .analytics ul li > i
+    {
+        margin-left: 14px;
+    }
+
+    .pricing .analytics a
+    {
+        margin-top: 30px;
+    }
 }
 
 /* End Analytics */
@@ -773,6 +1001,39 @@ body
     margin-top: 75px;
 }
 
+@media (max-width: 576px)
+{
+    .pricing .keyword div span
+    {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pricing .keyword div p
+    {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .pricing .keyword ul li
+    {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+    .pricing .keyword ul li > i
+    {
+        margin-left: 14px;
+    }
+
+    .pricing .keyword a
+    {
+        margin-top: 30px;
+    }
+}
+
 /* End Keyword */
 
 /* Start Support */
@@ -826,6 +1087,39 @@ body
     text-decoration: none;
     display: inline-block;
     margin-top: 75px;
+}
+
+@media (max-width: 576px)
+{
+    .pricing .support div span
+    {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pricing .support div p
+    {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .pricing .support ul li
+    {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+    .pricing .support ul li > i
+    {
+        margin-left: 14px;
+    }
+
+    .pricing .support a
+    {
+        margin-top: 30px;
+    }
 }
 
 /* End Support */
@@ -885,6 +1179,54 @@ body
     padding: 28px 30px;
     border-radius: 16px;
     float: right;
+}
+
+@media (max-width: 576px)
+{
+    .drop
+    {
+        margin-bottom: 50px;
+    }
+
+    .drop div img
+    {
+        width: 100%;
+    }
+
+    .drop span
+    {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .drop h2
+    {
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+
+    .drop p
+    {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+
+    .drop form input
+    {
+        width: 65%;
+        height: 51px;
+    }
+
+    .drop a
+    {
+        font-size: 13px;
+        width: 33%;
+        padding: 16px 22px;
+    }
 }
 
 /* End Drop */
@@ -948,6 +1290,14 @@ body
     color: #828282;
     letter-spacing: -.48px;
     line-height: 26px;
+}
+
+@media (max-width: 576px)
+{
+    .footer p
+    {
+        line-height: 10px;
+    }
 }
 
 /* End Footer */
